@@ -88,3 +88,43 @@ body {
 .input-submit {
   box-shadow: 0 1px 10px rgb(254, 201, 26, 0.5);
 }
+@media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    padding: 60px 25px 25px 25px;
+  }
+
+  .header-text {
+    font-size: 20px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .forgot-pass a {
+    font-size: 11px;
+  }
+
+  .input-submit {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-img img {
+    width: 60px;
+  }
+
+  .login-box {
+    padding-top: 50px;
+  }
+
+  .header-text {
+    font-size: 18px;
+  }
+
+  .input-submit {
+    height: 36px;
+  }
+}
